@@ -1,0 +1,88 @@
+@media (min-width : 370px) and (max-width : 767px)
+{
+    /* HEADER SECCTION START */
+    .header-arrows,
+    .header-buttons{
+        display: none;
+    }
+    .header-section{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    /* HEADER SECTION END */
+
+    /* HERO SECTION START */
+    .hero-section{
+        max-width: 100%;
+        height: 100%;
+    }
+    .hero-part1-image{
+        display: none;
+    }
+    .hero-part1-logo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 5%;
+    }
+    .hero-part2{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .hero-part2-images{
+        max-width: 100%;
+        max-height: 100%;
+    }
+    .hero-part2-texts{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .hero-part2-text{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .hero-part2-button{
+        width: 100%;
+        margin: 0%;
+    }
+    /* HERO SECTION END */
+
+    /* BANNER SECTION START */
+    .banner-tags,
+    .banner-tags-dots{
+        display: none;
+    }
+    .tag2,
+    .tag1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 3%;
+        margin-right: 6%;
+    }
+    /* BANNER SECTION END  */
+
+    /* CONTENT SECTION START  */
+    .content-section{
+        padding-top: 5%;
+    }
+    .content-section-part1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 3%;
+        margin-right: 6%;
+    }
+    .content-description{
+        margin-top: 5%;
+        margin-left: 3%;
+        margin-right: 6%;
+    }
+    /* CONTENT SECTION END */
+}

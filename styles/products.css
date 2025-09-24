@@ -1,0 +1,35 @@
+.content-section-part2 {
+    width: 100%;
+}
+
+.content-part2-boxes {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 100%;
+    margin-left: 3%;
+    margin-right: 3%;
+    gap: 3%;
+}
+
+.content-part2-box {
+    max-width: 298px;
+    max-height: 346px;
+    opacity: 1;
+    border-radius: 16px;
+}
+
+.content-part2-box-image{
+    max-width: 100%;
+}
+
+.content-part2-description {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.content-part2-name{
+    margin: 10px 0px;
+}

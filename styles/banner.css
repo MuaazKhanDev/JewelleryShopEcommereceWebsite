@@ -1,0 +1,53 @@
+.banner-container {
+    width: 100%;
+    background-image: url('/assets/Banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center; 
+    color: white;
+}
+
+.banner-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 20px;
+    height: 85px;
+}
+
+.banner-tags,
+.banner-tags-dots {
+    max-width: 235px;
+    max-height: 21px;
+    opacity: 1;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-style: SemiBold;
+    font-size: 18px;
+    line-height: 20.8px;
+    letter-spacing: 0.5px;
+    text-align: right;
+    vertical-align: middle;
+}
+.banner-tags-dots{
+    max-width: 4px;
+    max-height: 21px;
+}
+
+.tag1{
+    max-width: 235px;
+    max-height: 21px;
+}
+.tag2{
+    max-width: 308px;
+    max-height: 21px;
+}
+.tag3{
+    max-width: 280px;
+    max-height: 21px;
+}
+.tag4{
+    max-width: 309px;
+    max-height: 21px;
+}

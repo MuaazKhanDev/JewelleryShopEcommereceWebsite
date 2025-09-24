@@ -1,0 +1,140 @@
+.hero-container {
+    max-width: 100%;
+    max-height: 806px;
+    background-image: url('/assets/MainHeroimg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;  
+    position: relative;
+}
+
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 1;
+}
+
+/* .hero-bg{
+    position: absolute;
+    background: #2F2F2F;
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;   
+} */
+
+.hero-part1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 5%;
+    margin-left: 3%;
+    margin-right: 6%;
+    gap: 3%;
+}
+
+.hero-part1-logo {
+    max-width: 717px;
+    max-height: 292px;
+}
+
+.hero-part1-images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-part1-image-box {
+    max-width: 436px;
+    max-height: 499px;
+}
+
+.hero-part1-image1 ,
+.hero-part1-image2 {
+    object-fit: cover;
+    max-width: 100%;
+    max-height: 500px;
+}
+
+
+/* PART 2 CSS */
+
+.hero-part2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 100%;
+    margin-left: 3%;
+    margin-right: 6%;
+    max-height: 450px;
+}
+
+.hero-part2-images{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    max-width: 50%;
+}
+
+.hero-part2-image-box {
+    max-width: 436px;
+    max-height: 436px;
+}
+
+.hero-part2-image-box img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.hero-part2-texts {
+    display: flex;
+    flex-direction: column;
+    max-width: 418px;
+    margin-top: 5%;
+}
+
+.hero-part2-text {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    color: #2f2f2f;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    line-height: 20.8px;
+    letter-spacing: 0.5px;
+    text-align: right;
+    vertical-align: middle;
+    height: 22px;
+    margin-bottom: 5%;
+}
+
+.hero-part2-button {
+    max-width: 340px;
+    max-height: 65px;
+    opacity: 1;
+    border-radius: 50px;
+    padding-top: 22px;
+    padding-right: 53px;
+    padding-bottom: 22px;
+    padding-left: 53px;
+    gap: 10px;
+    background: #B07A78;
+    cursor: pointer;
+    color: white;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 20px;
+    line-height: 20.8px;
+    letter-spacing: 0.5px;
+    text-align: right;
+    vertical-align: middle;
+    text-transform: capitalize;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
